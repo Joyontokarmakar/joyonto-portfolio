@@ -3,8 +3,11 @@
 /* Main color code: #ff6374 */
 
 /* +===============================================+ */
+
 body {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -18,9 +21,34 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding: 0 2%;
+    padding: 2%;
 }
 
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
+
+.hire_button{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg,#f98b77, #ff6347);
+    border: 1px solid #ff6347;
+    border-radius: 5px;
+    padding: 5px 7px;
+    font-weight: bold;
+}
+
+.dream-part{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
