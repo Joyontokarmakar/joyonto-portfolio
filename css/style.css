@@ -13,7 +13,7 @@ body {
 h1{
     font-size: 40px;
 }
-.name_span {
+.highlight_color {
     color:#ff6347;
 }
 
@@ -52,4 +52,32 @@ section{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience_design{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+}
+.experience_section{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#first_experience{
+    border-image: linear-gradient(180deg, #f3aea1ab, #ff6347);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+#second_experience{
+    border-image: linear-gradient(180deg, #bb3af2, #f3b2f9ab);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
